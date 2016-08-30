@@ -1,0 +1,17 @@
+version: '2'
+
+volumes:
+  ftb:
+
+services:
+services:
+
+  infinity:
+      image: jonasbonno/ftb-infinity:2.5.0
+      cpu_shares: 128
+      mem_limit: 2097152
+      restart: always
+      ports:
+          - "25565:25565"
+      volumes:
+          - "ftb:/opt/minecraft"
