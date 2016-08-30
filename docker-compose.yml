@@ -4,7 +4,6 @@ volumes:
   ftb:
 
 services:
-services:
 
   infinity:
       image: jonasbonno/ftb-infinity:2.5.0
