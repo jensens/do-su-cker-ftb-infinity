@@ -8,7 +8,6 @@ services:
   infinity:
       image: jonasbonno/ftb-infinity:2.5.0
       cpu_shares: 128
-      mem_limit: 4194304
       restart: always
       ports:
           - "25565:25565"
